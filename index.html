@@ -5,37 +5,39 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Резюме</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<img src="foto.jpg" alt="Моя фотография" width="200">
+	<div class="container">
+	<img src="foto.jpg" alt="Моя фотография" class="avatar">
 
 	<header>
 		<strong> <h1>Пиго Татьяна Андреевна</h1></strong>
 	</header>
 
-	<section>
-	<p> <strong>Сведения о себе</strong>
-		<br>Год и место рождения: 08.12.1986 г.
+	<section class="card bg-lightorange">
+	<p> <span> <strong>Сведения о себе</strong></span>
+		<p> Год и место рождения: 08.12.1986 г.
 		<br> город Красноярск
 		<br> Национальность: Русская
 		<br> Семейное положение: замужем
-		<br> Дети: есть, дочь 11 лет
+		<br> Дети: есть, дочь 11 лет</p>
 		</p>
 	</section>
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Цель</strong>
-		<br> Получение должности Frontend разработчика
+	<section class="card bg-color">
+	<p> <span><strong>Цель</strong></span>
+		<p> Получение должности Frontend разработчика</p>
 	</p>
 	</section>	
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Образование</strong>
-		<ul>
+	<section class="card bg-lightorange">
+	<p> <span><strong>Образование</strong></span>
+		<ul type="circle">
 			<li> 2007 – 2011 г.г. «Сибирский Государственный Аэрокосмический Университет им. академика М. Ф. Решетнева». 
 				<br> Специальность: «Бухгалтерский учет, анализ и аудит». 
 				<br> Квалификация:Бухгалтер-экономист. 
@@ -49,10 +51,10 @@
 	</p>
 	</section>
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Опыт работы</strong>
+	<section class="card bg-color">
+	<p> <span><strong>Опыт работы</strong></span>
 
 		<ol>
 
@@ -85,45 +87,44 @@
 	</p>
 	</section>
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Интересы и увлечения</strong>
-		<br> Занимаюсь спортом, присвоено звание Кандидата в мастера спорта.
-		Увлекаюсь шитьем.
+	<section class="card bg-lightorange">
+	<p> <span><strong>Интересы и увлечения</strong></span></p>
+		<p> Занимаюсь спортом, присвоено звание Кандидата в мастера спорта. Увлекаюсь шитьем.</p>
+	
+	</section>
+
+	<!--<hr>-->
+
+	<section class="card bg-color">
+	<p> <span><strong>Дополнительная информация</strong></span>
+		<ul type="circle">
+		<li> Владение ПК – уверенный пользователь: MS Office (Word, Excel, Access, PowerPoint), Google, 1С.</li>
+		<li> Успешно прослушала учебно-практический тренинг 1С: Бухгалтерия, 1С: Зарплата и Кадры, 1С: Торговля и Склад. </li>
+		<li>Успешно прослушала учебно-практический тренинг Владилена Минина HTML & CSS − это первый шаг, чтобы стать IT-разработчиком. </li> 
+		<li> Прохожу обучение в он-лайн школе Udemy, полный курс по JavaScript + React - с нуля до результата.</li>
+		<li>Английский язык - базовый уровень.</li> 
+		<li> 2009 г. Окончила курсы подготовки водителей. Получила водительское удостоверение категории «В».</li>
+		</ul>
 	</p>
 	</section>
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Дополнительная информация</strong>
-		<br> Владение ПК – уверенный пользователь: MS Office (Word, Excel, Access, PowerPoint), Internet Explorer, 1С.
-		<br> Успешно прослушала учебно-практический тренинг 1С: Бухгалтерия, 1С: Зарплата и Кадры, 1С: Торговля и Склад. 
-		<br> Успешно прослушала учебно-практический тренинг Владилена Минина HTML & CSS − это первый шаг, чтобы стать IT-разработчиком. 
-		<br> Прохожу обучение в он-лайн школе Udemy, полный курс по JavaScript + React - с нуля до результата.
-		<br> Английский язык - базовый уровень.
-		<br> 2009 г. Окончила курсы подготовки водителей. Получила водительское удостоверение категории «В».
-		
+	<section class="card bg-lightorange">
+	<p> <span><strong>Деловые качества</strong></span>
+		<p> Ответственная, аккуратная, быстро усваиваю новую информацию, пунктуальная, коммуникабельная, исполнительная.</p>
 	</p>
 	</section>
 
-	<hr>
+	<!--<hr>-->
 
-	<section>
-	<p><strong>Деловые качества</strong>
-		<br> Ответственная, аккуратная, быстро усваиваю новую информацию, пунктуальная, коммуникабельная, исполнительная.
-	</p>
-	</section>
-
-	<hr>
-
-	<p><strong>Связаться со мной</strong></p>
-
-
-	<footer>
+	<footer class="card bg-color">
+		<p> <span><strong>Связаться со мной</strong></span></p>
+	
 		<a href="https://vk.com/id9291684" target="_blank">VK</a>
 	</footer>
-
+	</div>
 </body>
 </html>
